@@ -19,5 +19,6 @@ printf("Buzz ");
 else
 printf("%d ", k);
 }
+printf("Buzz\n");
 return (0);
 }
