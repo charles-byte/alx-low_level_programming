@@ -6,6 +6,7 @@
  *
  *Return: zero
  */
+
 int main(void)
 {
 int k;
@@ -20,5 +21,6 @@ printf("Buzz ");
 else
 printf("%d ", k);
 }
+printf("\n");
 return (0);
 }
