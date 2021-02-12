@@ -1,16 +1,19 @@
-#include <stdio.h>
 #include "holberton.h"
+#include <stdio.h>
 
 /**
- *main - test
+ * main - test
  *
- *Return: zero
- */
+ * Description: print numbers 1 -100 replacing multiples of 3 & 5
+ *
+ * Return: zero
+ **/
 
 int main(void)
 {
 int k;
-for (k = 1; k <= 100; k++)
+
+for (k = 1; k < 100; k++)
 {
 if (k % 3 == 0 && k % 5 == 0)
 printf("FizzBuzz ");
@@ -21,6 +24,6 @@ printf("Buzz ");
 else
 printf("%d ", k);
 }
-printf("\n");
+printf("Buzz\n");
 return (0);
 }
