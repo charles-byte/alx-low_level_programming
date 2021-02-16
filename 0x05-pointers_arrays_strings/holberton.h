@@ -3,16 +3,16 @@
 /**
  * _putchar - writes the character c to stdout
  */
-int _strlen(char *s)
-void _puts(char *str)
-void print_rev(char *s)
-char *_strcpy(char *dest, char *src)
-void print_array(int *a, int n)
-void puts_half(char *str)
-void puts2(char *str)
-void rev_string(char *s)
-void reset_to_98(int *n)
-void swap_int(int *a, int *b)
+int _strlen(char *s);
+void _puts(char *str);
+void print_rev(char *s);
+char *_strcpy(char *dest, char *src);
+void print_array(int *a, int n);
+void puts_half(char *str);
+void puts2(char *str);
+void rev_string(char *s);
+void reset_to_98(int *n);
+void swap_int(int *a, int *b);
 int _putchar(char);
 void print_alphabet(void);
 void print_alphabet_x10(void);
