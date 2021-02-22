@@ -3,8 +3,8 @@
 /**
  * _strpbrk - searches a string for any of a set of bytes
  * @s: string to search
- * @accept: set of bytes to search 
- * Return: pointer to first instance
+ * @accept: set of bytes to search
+* Return: pointer to first instance
 **/
 
 char *_strpbrk(char *s, char *accept)
