@@ -3,6 +3,7 @@
 /**
  * _putchar - writes the character c to stdout
  */
+int wildcmp(char *s1, char *s2);
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
 int _strlen_recursion(char *s);
